@@ -33,6 +33,14 @@ nav a {
 
 /* Main Section Styling */
 
+.main-top-container h1 {
+  margin: 1rem 0;
+}
+
+.main-top-container p {
+  margin: 0 8rem;
+}
+
 .emotion-header {
   width: 100vw;
   height: 40vh;
