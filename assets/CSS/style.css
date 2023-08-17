@@ -33,6 +33,14 @@ nav a {
 
 /* Main Section Styling */
 
+.main-top-container h1 {
+  margin: 1rem 0;
+}
+
+.main-top-container p {
+  margin: 0 8rem;
+}
+
 .emotion-header {
   width: 100vw;
   height: 40vh;
@@ -50,6 +58,13 @@ h1 {
 
 .example-container-01 aside {
   padding: 0 0 2.5rem 1rem;
+}
+
+.example-container-01 img,
+.example-container-02 img {
+  border-radius: 10px;
+  border-right: 1px solid #000;
+  border-bottom: 1px solid #000;
 }
 
 .example-container-02 {
