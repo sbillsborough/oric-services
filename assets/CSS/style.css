@@ -60,6 +60,13 @@ h1 {
   padding: 0 0 2.5rem 1rem;
 }
 
+.example-container-01 img,
+.example-container-02 img {
+  border-radius: 10px;
+  border-right: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+
 .example-container-02 {
   display: flex;
   margin: 4rem 8rem;
