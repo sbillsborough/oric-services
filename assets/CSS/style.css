@@ -3,6 +3,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 /* Header Section */
@@ -32,11 +33,30 @@ nav a {
 
 /* Main Section Styling */
 
-img {
+.emotion-header {
   width: 100vw;
   height: 40vh;
+  background: no-repeat;
 }
 
 h1 {
   text-align: center;
+}
+
+.example-container-01 {
+  display: flex;
+  margin: 4rem 8rem;
+}
+
+.example-container-01 aside {
+  padding: 0 0 2.5rem 1rem;
+}
+
+.example-container-02 {
+  display: flex;
+  margin: 4rem 8rem;
+}
+
+.example-container-02 aside {
+  padding: 0 2.5rem 0 0;
 }
