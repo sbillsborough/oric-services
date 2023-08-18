@@ -19,6 +19,7 @@
 body {
   background: var(--bg-color);
   font-family: "Abel", sans-serif;
+  margin-top: 4.5rem;
 }
 
 /* Header Section */
@@ -32,20 +33,50 @@ header {
 
 /* Nav Bar Styling */
 
-nav {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: all 0.3s ease-in-out;
   width: 100vw;
   border-bottom: 2px solid #808080;
   background: var(--main-color);
+  padding: 20px;
 }
 
-nav a {
+.nav.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav a {
   padding: 20px;
   text-decoration: none;
   color: var(--font-color);
+  transition: all 0.3s ease-in-out;
+}
+
+.nav.active {
+  background-color: #878787;
+  border-bottom: none;
+}
+
+.nav.active a {
+  color: #000;
+}
+
+.nav a.current,
+.nav a:hover {
+  color: #c0392b;
 }
 
 /* Main Section Styling */
