@@ -1,1 +1,2 @@
-console.log("hello world");
+const nav = document.querySelector(".nav");
+window.addEventListener("scroll", fixNav);
