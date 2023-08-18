@@ -41,6 +41,7 @@ header {
   width: 100vw;
   border-bottom: 2px solid #808080;
   background: var(--main-color);
+  padding: 20px;
 }
 
 .nav.container {
@@ -61,6 +62,15 @@ header {
   text-decoration: none;
   color: var(--font-color);
   transition: all 0.3s ease-in-out;
+}
+
+.nav.active {
+  background-color: #878787;
+  border-bottom: none;
+}
+
+.nav.active a {
+  color: #000;
 }
 
 .nav a.current,
