@@ -43,6 +43,12 @@ header {
   background: var(--main-color);
 }
 
+.nav.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .nav a {
   padding: 20px;
   text-decoration: none;
