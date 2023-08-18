@@ -58,6 +58,10 @@ nav a {
   margin: 0 8rem;
 }
 
+.main-top-container img {
+  object-fit: contain;
+}
+
 .emotion-header {
   width: 100vw;
   height: 40vh;
