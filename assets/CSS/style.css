@@ -6,6 +6,18 @@
   box-sizing: border-box;
 }
 
+/* CSS Variables */
+
+:root {
+  --main-bg-color: #373c42;
+}
+
+/* General Styles */
+
+body {
+  background: var(--main-bg-color);
+}
+
 /* Header Section */
 
 header {
