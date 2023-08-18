@@ -48,6 +48,11 @@ nav a {
   color: var(--font-color);
 }
 
+.nav a.current,
+.nav a:hover {
+  color: #c0392b;
+}
+
 /* Main Section Styling */
 
 .main-top-container h1 {
