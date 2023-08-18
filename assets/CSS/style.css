@@ -19,6 +19,7 @@
 body {
   background: var(--bg-color);
   font-family: "Abel", sans-serif;
+  margin-top: 4.5rem;
 }
 
 /* Header Section */
