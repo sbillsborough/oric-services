@@ -49,6 +49,13 @@ header {
   align-items: center;
 }
 
+.nav ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  justify-content: center;
+}
+
 .nav a {
   padding: 20px;
   text-decoration: none;
