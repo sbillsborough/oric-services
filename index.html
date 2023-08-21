@@ -5,6 +5,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./assets/CSS/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
   <script src="./assets/JS/script.js" defer></script>
   <title>Oric Services</title>
 </head>
@@ -14,31 +17,37 @@
   <!-- Nav Bar -->
 
   <header>
-    <nav>
-      <a href="#">Home</a>
-      <a href="#">Kitchen Design and Installation</a>
-      <a href="#">Bathroom Design and Installation</a>
-      <a href="#">Damp Proofing and Condensation</a>
-      <a href="#">Photo Gallery</a>
-      <a href="#">About Us</a>
-      <a href="#">Directions</a>
+    <nav class="nav">
+      <div class="container">
+        <ul>
+          <li><a href="#" class="current">Home</a></li>
+          <li><a href="#">Kitchen Design and Installation</a></li>
+          <li><a href="#">Bathroom Design and Installation</a></li>
+          <li><a href="#">Damp Proofing and Condensation</a></li>
+          <li><a href="#">Photo Gallery</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Directions</a></li>
+        </ul>
+      </div>
     </nav>
   </header>
   <main>
 
     <!-- Main Section banner, h1 and intro paragraph -->
 
-    <div class="main-top">
-      <img src="./assets/images/emotionheader.jpg" alt="An image of the Oric Services banner">
-    </div>
-    <h1>Oric Services</h1>
-    <p>Oric services is a reliable and friendly Installations company working with Homeowners, Landlords and Businesses
-      across the Northwest. With our experienced team we willingly take on jobs of all sizes and descriptions.</p>
+    <div class="main-top-container">
+      <img src="./assets/images/emotionheader.jpg" alt="An image of the Oric Services banner" class="emotion-header">
 
+      <h1>Oric Services</h1>
+      <p>Oric services is a reliable and friendly Installations company working with Homeowners, Landlords and
+        Businesses
+        across the Northwest. With our experienced team we willingly take on jobs of all sizes and descriptions.</p>
+    </div>
     <!-- Main Section Example image and aside section -->
 
     <div class="example-container-01">
-      <img src="./assets/images/homepage-main-kitchen.jpg" alt="An example image of a completed kitchen">
+      <img src="./assets/images/homepage-main-kitchen-01.jpg" alt="An example image of a completed kitchen"
+        class="img-main-kitchen-01">
       <aside>Every month we take on new and varied tasks, from Installing new Kitchens and Bathrooms to Decking and Damp
         Proofing. All of which are carried out reliably and accurately by our qualified team. We offer custom work in
         addition to straight forward Installations, incorporating any special requests. If you are not sure if your job
@@ -51,11 +60,12 @@
         With interior and exterior services available for all properties, you can benefit from a high quality tailored
         finish to add instant value and appeal to your home or business.
       </aside>
-      <img src="./assets/images/homepage-main-kitchen-02.jpg" alt="An example image of a completed kitchen">
+      <img src="./assets/images/homepage-main-bathroom-01.jpg" alt="An example image of a completed kitchen"
+        class="img-main-bathroom-01">
     </div>
   </main>
   <footer>
-    <p>Author: Hege Refsnes</p>
+    <p>Author: Scott Billsborough</p>
     <p><a href="mailto:hege@example.com">hege@example.com</a></p>
   </footer>
 
