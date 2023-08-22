@@ -13,6 +13,7 @@
   --main-color: #212224;
   --font-color: #c9ae5d;
   --active-color: #c0392b;
+  --border-color: #808080;
 }
 
 /* General Styles */
@@ -41,7 +42,7 @@ header {
   right: 0;
   transition: all 0.3s ease-in-out;
   width: 100vw;
-  border-bottom: 2px solid #808080;
+  border-bottom: 2px solid var(--border-color);
   background: var(--main-color);
   padding: 20px;
 }
@@ -138,10 +139,7 @@ footer {
   align-items: start;
   background: var(--main-color);
   padding: 10px;
-}
-
-.ft-container-01,
-.ft-container-02 {
+  border-top: 2px solid var(--border-color);
 }
 
 .ft-container-01 li,
