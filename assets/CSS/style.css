@@ -12,6 +12,7 @@
   --bg-color: #373c42;
   --main-color: #212224;
   --font-color: #c9ae5d;
+  --active-color: #c0392b;
 }
 
 /* General Styles */
@@ -76,7 +77,7 @@ header {
 
 .nav a.current,
 .nav a:hover {
-  color: #c0392b;
+  color: var(--active-color);
 }
 
 /* Main Section Styling */
@@ -126,4 +127,31 @@ h1 {
 
 .example-container-02 aside {
   padding: 0 2.5rem 0 0;
+}
+
+/* Footer Styling */
+
+footer {
+  background: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+  background: var(--main-color);
+  padding: 10px;
+}
+
+.ft-container-01,
+.ft-container-02 {
+}
+
+.ft-container-01 li,
+.ft-container-02 li {
+  list-style-type: none;
+  color: var(--active-color);
+}
+
+.ft-container-01 a,
+.ft-container-02 a {
+  text-decoration: none;
+  color: var(--font-color);
 }
