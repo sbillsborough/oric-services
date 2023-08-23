@@ -20,6 +20,7 @@ function fixNav() {
 }
 
 // Loop through the buttons and add the current class to the current/clicked button
+// for loop to loop over the buttons returned array from getElementsByClassName. Add an event listener that listens for a click. Stores the element with the current class to the variable named current. Selects the index of 0 in the variable named current and replaces it with an empty string, removing the class. Then += current to className selected with this"
 
 for (let i = 0; i < buttons.length; i++) {
   buttons[i].addEventListener("click", function () {
