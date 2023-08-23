@@ -1,6 +1,6 @@
 // STICKY NAVBAR
 
-// Pull in the .nav element and add event listener
+// Get the .nav element and add event listener
 
 const nav = document.querySelector(".nav");
 window.addEventListener("scroll", fixNav);
@@ -14,3 +14,5 @@ function fixNav() {
     nav.classList.remove("active");
   }
 }
+
+//
