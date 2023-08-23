@@ -24,7 +24,7 @@ body {
   margin-top: 4.5rem;
 }
 
-/* Header Section */
+/* Header Section Start */
 
 header {
   display: flex;
@@ -32,8 +32,6 @@ header {
   font-weight: 700;
   margin: 0 auto;
 }
-
-/* Nav Bar Styling */
 
 .nav {
   position: fixed;
@@ -81,8 +79,6 @@ header {
   color: var(--active-color);
 }
 
-/* Main Section Styling */
-
 .main-top-container h1 {
   margin: 1rem 0;
 }
@@ -105,6 +101,10 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  text-align: center;
+}
+
 .example-container-01 {
   display: flex;
   margin: 4rem 8rem;
@@ -116,7 +116,6 @@ h1 {
 
 .example-container-01 img,
 .example-container-02 img {
-  border-radius: 10px;
   border-right: 1px solid #000;
   border-bottom: 1px solid #000;
 }
@@ -129,8 +128,6 @@ h1 {
 .example-container-02 aside {
   padding: 0 2.5rem 0 0;
 }
-
-/* Footer Styling */
 
 footer {
   background: #fff;
