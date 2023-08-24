@@ -151,3 +151,7 @@ footer {
   text-decoration: none;
   color: var(--font-color);
 }
+
+.kitchen {
+  padding-top: 90px;
+}
