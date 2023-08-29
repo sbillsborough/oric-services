@@ -100,13 +100,19 @@ header {
   background: no-repeat;
 }
 
-.introduction {
+.introduction,
+.bathroom {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   margin: 2rem auto;
   width: 68vw;
+}
+
+.introduction p,
+.bathroom p {
+  margin: 1rem 0;
 }
 
 h2 {
