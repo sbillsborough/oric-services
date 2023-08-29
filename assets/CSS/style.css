@@ -87,14 +87,6 @@ header {
   align-items: center;
 }
 
-.main-top-container h1 {
-  margin: 1rem 0;
-}
-
-.main-top-container p {
-  margin: 0 8rem;
-}
-
 .main-top-container img {
   object-fit: contain;
   margin-top: 70px;
@@ -108,17 +100,24 @@ header {
   background: no-repeat;
 }
 
-h1 {
-  text-align: center;
+.introduction {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem auto;
+  width: 68vw;
 }
 
 h2 {
   text-align: center;
 }
 
-.example-container-01 {
+.example-container-01,
+.example-container-02 {
   display: flex;
-  margin: 4rem 8rem;
+  margin: 4rem auto;
+  width: 68vw;
 }
 
 .example-container-01 aside {
@@ -131,11 +130,6 @@ h2 {
   max-width: 21rem;
   border-right: 1px solid #000;
   border-bottom: 1px solid #000;
-}
-
-.example-container-02 {
-  display: flex;
-  margin: 4rem 8rem;
 }
 
 .example-container-02 aside {
