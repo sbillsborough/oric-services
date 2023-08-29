@@ -81,6 +81,12 @@ header {
 
 /* Home Section Styling */
 
+.emotion-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .main-top-container h1 {
   margin: 1rem 0;
 }
@@ -92,7 +98,8 @@ header {
 .main-top-container img {
   object-fit: contain;
   margin-top: 70px;
-  height: 300px;
+  height: 21rem;
+  width: 57.5rem;
 }
 
 .emotion-header {
@@ -120,6 +127,8 @@ h2 {
 
 .example-container-01 img,
 .example-container-02 img {
+  max-height: 15rem;
+  max-width: 21rem;
   border-right: 1px solid #000;
   border-bottom: 1px solid #000;
 }
