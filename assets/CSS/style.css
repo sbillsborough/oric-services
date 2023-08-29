@@ -120,9 +120,12 @@ h2 {
   width: 68vw;
 }
 
-.example-container-01 aside,
+.example-container-01 aside {
+  padding-left: 1rem;
+}
+
 .example-container-02 aside {
-  padding: 0 0 2.5rem 1rem;
+  padding-right: 1rem;
 }
 
 .example-container-01 img,
