@@ -81,6 +81,10 @@ header {
 
 /* Home Section Styling */
 
+.introduction h1 {
+  text-align: center;
+}
+
 .emotion-container {
   display: flex;
   justify-content: center;
@@ -114,11 +118,15 @@ header {
 .introduction p,
 .bathroom p,
 .damp-proof p,
-.photo p,
+.photo p {
+  margin: 1rem auto;
+  text-align: left;
+}
+
 .about p,
 .directions p {
   margin: 1rem auto;
-  text-align: left;
+  text-align: center;
 }
 
 h2 {
