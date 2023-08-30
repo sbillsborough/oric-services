@@ -102,7 +102,8 @@ header {
 
 .introduction,
 .bathroom,
-.damp-proof {
+.damp-proof,
+.photo {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -113,8 +114,9 @@ header {
 
 .introduction p,
 .bathroom p,
-.damp-proof p {
-  margin: 1rem 0;
+.damp-proof p,
+.photo p {
+  margin: 1rem auto;
 }
 
 h2 {
