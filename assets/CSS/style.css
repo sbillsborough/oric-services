@@ -101,7 +101,8 @@ header {
 }
 
 .introduction,
-.bathroom {
+.bathroom,
+.damp-proof {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -111,7 +112,8 @@ header {
 }
 
 .introduction p,
-.bathroom p {
+.bathroom p,
+.damp-proof p {
   margin: 1rem 0;
 }
 
