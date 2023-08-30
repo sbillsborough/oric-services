@@ -1,6 +1,6 @@
 // STICKY NAVBAR
 
-// Get the .nav element and add event listener
+// Get the .nav element and add event listener to window object
 
 const nav = document.querySelector(".nav");
 window.addEventListener("scroll", fixNav);
