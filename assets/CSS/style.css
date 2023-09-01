@@ -14,13 +14,14 @@
   --font-color: #c9ae5d;
   --active-color: #c0392b;
   --border-color: #808080;
+  --main-font-color: #f0f8ff;
 }
 
 /* General Styles */
 
 body {
   background: var(--bg-color);
-  color: aliceblue;
+  color: var(--main-font-color);
   font-family: "Abel", sans-serif;
   overflow-x: hidden;
 }
