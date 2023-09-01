@@ -70,6 +70,7 @@ header {
 .nav.active {
   background-color: #878787;
   border-bottom: none;
+  z-index: 5;
 }
 
 .nav.active a {
