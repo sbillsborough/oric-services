@@ -262,6 +262,49 @@ h2 {
   }
 }
 
+/* How To Find Us Section */
+
+.directions {
+  max-height: 300px;
+  padding: 30px;
+}
+
+#find-us-container {
+  margin: 0 auto;
+  display: grid;
+  width: 100%;
+  max-height: 200px;
+  /* place-items: center; */
+  margin: 0 auto;
+
+  grid-template-areas:
+    "h4 gmp-map gmp-map"
+    "span gmp-map gmp-map"
+    "span gmp-map gmp-map";
+
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+#find-us-container > h4 {
+  grid-area: h4;
+}
+
+#find-us-container > span {
+  grid-area: span;
+}
+
+#find-us-container > gmp-map {
+  grid-area: gmp-map;
+  height: 200px;
+}
+
+.location-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
 /* Footer Styling Section */
 
 footer {
