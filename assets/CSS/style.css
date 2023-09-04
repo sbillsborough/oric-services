@@ -262,6 +262,40 @@ h2 {
   }
 }
 
+/* How To Find Us Section */
+
+#find-us-container {
+  margin: 0 auto;
+  display: grid;
+  width: 100%;
+  height: 200px;
+  place-items: center;
+  margin: 0 auto;
+  grid-template-areas:
+    "h4 gmp-grid"
+    "span gmp-grid";
+
+  grid-template-columns: 150px 1fr;
+}
+
+#find-us-container > h4 {
+  grid-area: h4;
+}
+
+#find-us-container > span {
+  grid-area: span;
+}
+
+#find-us-container > gmp-map {
+  grid-area: gmp-map;
+}
+
+.location-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
 /* Footer Styling Section */
 
 footer {
