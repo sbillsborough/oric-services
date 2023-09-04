@@ -1,3 +1,5 @@
+const mapsAPIKey = "AIzaSyDpZQjFuUjVyg0d3_NEya9n2oYEvm9nMCw";
+
 // STICKY NAVBAR
 
 // Get the .nav element and add event listener to window object
