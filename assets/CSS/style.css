@@ -266,6 +266,7 @@ h2 {
 
 .directions {
   max-height: 300px;
+  padding: 30px;
 }
 
 #find-us-container {
