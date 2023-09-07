@@ -268,11 +268,11 @@ h2 {
 gmp-map {
   margin: 0 auto;
   width: 100%;
-  height: 100%;
+  height: 100% !important;
 }
 
 .directions {
-  max-height: 350px;
+  height: 450px;
   padding: 30px;
 }
 
@@ -280,17 +280,16 @@ gmp-map {
   margin: 0 auto;
   display: grid;
   width: 100%;
-  max-height: 200px;
+  height: 380px;
   /* place-items: center; */
   margin: 0 auto;
 
   grid-template-areas:
     "h4 gmp-map gmp-map"
-    "span gmp-map gmp-map"
     "span gmp-map gmp-map";
 
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
 }
 
 #find-us-container > h4 {
