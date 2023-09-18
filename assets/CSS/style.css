@@ -45,6 +45,7 @@ header {
   border-bottom: 2px solid var(--border-color);
   background: var(--main-color);
   padding: 20px;
+  overflow: hidden;
 }
 
 .nav.container {
@@ -65,6 +66,10 @@ header {
   text-decoration: none;
   color: var(--font-color);
   transition: all 0.3s ease-in-out;
+}
+
+.nav .icon {
+  display: none;
 }
 
 .nav.active {
@@ -334,3 +339,5 @@ footer {
   text-decoration: none;
   color: var(--font-color);
 }
+
+/* Media Queries */
