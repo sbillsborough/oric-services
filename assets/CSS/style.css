@@ -68,7 +68,7 @@ header {
   transition: all 0.3s ease-in-out;
 }
 
-.nav .icon {
+.nav li a.icon {
   display: none;
 }
 
@@ -341,3 +341,13 @@ footer {
 }
 
 /* Media Queries */
+
+@media screen and (max-width: 600px) {
+  .nav li:not(:first-child) {
+    display: none;
+  }
+  .nav li a.icon {
+    float: right;
+    display: block;
+  }
+}
