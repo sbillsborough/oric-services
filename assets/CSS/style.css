@@ -44,7 +44,7 @@ header {
   width: 100vw;
   border-bottom: 2px solid var(--border-color);
   background: var(--main-color);
-  padding: 20px;
+  overflow: hidden;
 }
 
 .nav.container {
@@ -334,3 +334,5 @@ footer {
   text-decoration: none;
   color: var(--font-color);
 }
+
+/* Media Queries */
