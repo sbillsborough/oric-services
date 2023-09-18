@@ -350,4 +350,13 @@ footer {
     float: right;
     display: block;
   }
+
+  .nav {
+    padding: 0;
+  }
+
+  .container ul {
+    display: flex;
+    justify-content: space-between;
+  }
 }
