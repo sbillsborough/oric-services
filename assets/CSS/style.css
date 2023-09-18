@@ -346,7 +346,7 @@ footer {
   .nav li:not(:first-child) {
     display: none;
   }
-  .nav li a.icon {
+  .nav .icon:last-child {
     float: right;
     display: block;
   }
