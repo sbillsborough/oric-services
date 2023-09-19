@@ -370,4 +370,9 @@ footer {
     float: none;
     display: block;
   }
+
+  .nav.responsive li .btn {
+    color: blue;
+    font-size: 0.8rem;
+  }
 }
