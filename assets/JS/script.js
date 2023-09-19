@@ -70,7 +70,7 @@ function showSlides(n) {
 // Navbar functionality
 
 /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
-function myFunction() {
+function responsiveClassToggle() {
   var x = document.getElementById("myNav");
   if (x.className === "nav") {
     x.className += " responsive";
