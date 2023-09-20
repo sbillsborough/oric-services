@@ -46,6 +46,7 @@ header {
   background: var(--main-color);
   padding: 20px;
   overflow: hidden;
+  z-index: 5;
 }
 
 .nav.container {
@@ -364,15 +365,16 @@ footer {
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. */
 @media screen and (max-width: 600px) {
   .nav.responsive {
-    position: relative;
+    position: fixed;
   }
   .nav.responsive li {
     float: none;
     display: block;
   }
 
-  .nav.responsive li .btn {
-    color: blue;
-    font-size: 0.8rem;
+  .nav.responsive li a.btn-mini {
+    font-size: 0.5rem;
+    padding: 0 4px;
+    width: 1.5rem;
   }
 }
