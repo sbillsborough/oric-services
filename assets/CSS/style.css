@@ -364,7 +364,7 @@ footer {
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. */
 @media screen and (max-width: 600px) {
   .nav.responsive {
-    position: relative;
+    position: fixed;
   }
   .nav.responsive li {
     float: none;
