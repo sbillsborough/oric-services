@@ -24,6 +24,7 @@ body {
   color: var(--main-font-color);
   font-family: "Abel", sans-serif;
   overflow-x: hidden;
+  font-size: 1rem;
 }
 
 /* Header Section Start */
@@ -378,6 +379,10 @@ footer {
     width: 1.5rem;
   }
 
+  body {
+    font-size: 0.7rem;
+  }
+
   .example-container-01 > img,
   .example-container-02 > img {
     max-width: 10rem;
@@ -387,5 +392,11 @@ footer {
   .example-container-01 > aside,
   .example-container-02 > aside {
     font-size: 0.7rem;
+  }
+
+  gmp-map {
+    margin: 0 auto;
+    max-width: 10rem;
+    max-height: 10rem;
   }
 }
