@@ -377,4 +377,15 @@ footer {
     padding: 0 4px;
     width: 1.5rem;
   }
+
+  .example-container-01 > img,
+  .example-container-02 > img {
+    max-width: 10rem;
+    max-height: 10rem;
+  }
+
+  .example-container-01 > aside,
+  .example-container-02 > aside {
+    font-size: 0.7rem;
+  }
 }
