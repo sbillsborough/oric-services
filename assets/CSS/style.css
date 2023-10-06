@@ -377,7 +377,7 @@ footer {
   }
 
   body {
-    font-size: 0.7rem;
+    font-size: 1rem;
   }
 
   .emotion-container > img {
@@ -392,7 +392,8 @@ footer {
 
   .example-container-01,
   .example-container-02 {
-    margin: 2rem auto;
+    margin: 4rem auto;
+    max-height: 10rem;
   }
 
   .example-container-01 > img,
@@ -403,7 +404,7 @@ footer {
 
   .example-container-01 > aside,
   .example-container-02 > aside {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
   }
 
   .dot {
