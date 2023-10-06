@@ -149,6 +149,7 @@ gmp-map {
 h2 {
   text-align: center;
   color: var(--font-color);
+  margin-bottom: 1rem;
 }
 
 .example-container-01,
@@ -378,6 +379,10 @@ footer {
     font-size: 1rem;
   }
 
+  h2 {
+    margin-bottom: 0;
+  }
+
   .emotion-container > img {
     margin: 30px 0 0 0;
     max-width: 32rem;
@@ -390,7 +395,7 @@ footer {
 
   .example-container-01,
   .example-container-02 {
-    margin: 4rem auto;
+    margin: 1rem auto;
     max-height: 10rem;
     width: 80%;
   }
@@ -430,6 +435,5 @@ footer {
   }
 }
 
-/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. */
 @media screen and (max-width: 312px) {
 }
