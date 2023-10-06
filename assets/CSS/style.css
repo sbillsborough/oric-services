@@ -412,6 +412,15 @@ footer {
     height: 0.5rem;
   }
 
+  #find-us-container {
+    height: 200px;
+  }
+
+  .directions {
+    height: 210px;
+    padding: 0;
+  }
+
   gmp-map {
     margin: 0 auto;
     max-width: 12rem;
