@@ -361,10 +361,7 @@ footer {
     display: flex;
     justify-content: space-between;
   }
-}
 
-/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. */
-@media screen and (max-width: 600px) {
   .nav.responsive {
     position: fixed;
   }
@@ -419,4 +416,8 @@ footer {
     max-width: 12rem;
     max-height: 10rem;
   }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. */
+@media screen and (max-width: 312px) {
 }
