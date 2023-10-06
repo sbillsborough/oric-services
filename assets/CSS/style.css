@@ -149,7 +149,6 @@ gmp-map {
 h2 {
   text-align: center;
   color: var(--font-color);
-  margin-bottom: 10px;
 }
 
 .example-container-01,
@@ -393,6 +392,7 @@ footer {
   .example-container-02 {
     margin: 4rem auto;
     max-height: 10rem;
+    width: 80%;
   }
 
   .example-container-01 > img,
@@ -420,6 +420,7 @@ footer {
   .directions {
     height: 13rem;
     padding: 0;
+    margin: 32px auto;
   }
 
   gmp-map {
