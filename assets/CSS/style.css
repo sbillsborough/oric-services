@@ -436,4 +436,68 @@ footer {
 }
 
 @media screen and (max-width: 312px) {
+  body {
+    font-size: 0.8rem;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .nav.responsive li a.btn-mini {
+    font-size: 0.3rem;
+    padding: 0 4px;
+    width: 1.5rem;
+  }
+
+  .main-top-container {
+    margin-top: 85px;
+  }
+
+  .introduction {
+    margin-top: 90px;
+  }
+
+  .main-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .services-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .emotion-container {
+    height: 0;
+  }
+  .emotion-container img {
+    width: 300px;
+  }
+
+  .kitchen {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .example-container-01 {
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+    margin: 50px auto;
+  }
+
+  .example-container-02 {
+    flex-wrap: wrap-reverse;
+    margin: 50px auto;
+  }
+
+  .example-container-01 img,
+  .example-container-02 img {
+    margin: 0 auto;
+  }
+
+  .example-container-01 aside,
+  .example-container-02 aside {
+    margin: 0 auto;
+  }
 }
