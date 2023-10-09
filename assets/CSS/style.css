@@ -460,7 +460,7 @@ footer {
     /* display: flex;
     flex-wrap: wrap; */
     display: grid;
-    gap: 30px;
+    gap: 20px;
   }
 
   .services-container {
@@ -476,7 +476,8 @@ footer {
   }
 
   .kitchen {
-    display: flex;
+    display: grid;
+    gap: 20px;
     flex-wrap: wrap;
     justify-content: space-around;
   }
