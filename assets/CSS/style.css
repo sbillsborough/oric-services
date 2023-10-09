@@ -436,4 +436,23 @@ footer {
 }
 
 @media screen and (max-width: 312px) {
+  body {
+    font-size: 0.8rem;
+  }
+
+  .nav.responsive li a.btn-mini {
+    font-size: 0.3rem;
+    padding: 0 4px;
+    width: 1.5rem;
+  }
+
+  .emotion-container {
+    height: 0;
+    margin-top: 120px;
+  }
+  .emotion-container img {
+    width: 300px;
+    margin: 0;
+    height: 250px;
+  }
 }
