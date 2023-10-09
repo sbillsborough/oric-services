@@ -457,8 +457,10 @@ footer {
   }
 
   .main-container {
-    display: flex;
-    flex-wrap: wrap;
+    /* display: flex;
+    flex-wrap: wrap; */
+    display: grid;
+    gap: 20px;
   }
 
   .services-container {
@@ -474,7 +476,8 @@ footer {
   }
 
   .kitchen {
-    display: flex;
+    display: grid;
+    gap: 20px;
     flex-wrap: wrap;
     justify-content: space-around;
   }
@@ -482,13 +485,16 @@ footer {
   .example-container-01 {
     display: flex;
     flex-wrap: wrap;
-    height: 500px;
-    margin: 50px auto 250px auto;
+    height: auto;
+    max-height: 100%;
+    margin: auto;
   }
 
   .example-container-02 {
     flex-wrap: wrap-reverse;
-    margin: 50px auto 50px auto;
+    max-height: 100%;
+    height: auto;
+    margin: auto;
   }
 
   .example-container-01 img,
@@ -499,5 +505,10 @@ footer {
   .example-container-01 aside,
   .example-container-02 aside {
     margin: 0 auto;
+    font-size: 0.5rem;
+  }
+
+  footer {
+    width: 100%;
   }
 }
