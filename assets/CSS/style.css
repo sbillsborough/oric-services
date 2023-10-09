@@ -446,6 +446,9 @@ footer {
     width: 1.5rem;
   }
 
+  .introduction {
+  }
+
   .emotion-container {
     height: 0;
     margin-top: 120px;
@@ -454,5 +457,21 @@ footer {
     width: 300px;
     margin: 0;
     height: 250px;
+  }
+
+  .example-container-01,
+  .example-container-02 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .example-container-01 img,
+  .example-container-02 img {
+    margin: 0 auto;
+  }
+
+  .example-container-01 aside,
+  .example-container-02 aside {
+    margin: 0 auto;
   }
 }
