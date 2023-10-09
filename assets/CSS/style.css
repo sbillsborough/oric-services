@@ -438,6 +438,8 @@ footer {
 @media screen and (max-width: 312px) {
   body {
     font-size: 0.8rem;
+    display: flex;
+    flex-wrap: wrap;
   }
 
   .nav.responsive li a.btn-mini {
@@ -446,23 +448,47 @@ footer {
     width: 1.5rem;
   }
 
+  .main-top-container {
+    margin-top: 85px;
+  }
+
   .introduction {
+    margin-top: 90px;
+  }
+
+  .main-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .services-container {
+    display: flex;
+    flex-wrap: wrap;
   }
 
   .emotion-container {
     height: 0;
-    margin-top: 120px;
   }
   .emotion-container img {
     width: 300px;
-    margin: 0;
-    height: 250px;
   }
 
-  .example-container-01,
-  .example-container-02 {
+  .kitchen {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .example-container-01 {
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+    margin: 50px auto;
+  }
+
+  .example-container-02 {
+    flex-wrap: wrap-reverse;
+    margin: 50px auto;
   }
 
   .example-container-01 img,
