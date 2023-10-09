@@ -483,12 +483,12 @@ footer {
     display: flex;
     flex-wrap: wrap;
     height: 500px;
-    margin: 50px auto;
+    margin: 50px auto 250px auto;
   }
 
   .example-container-02 {
     flex-wrap: wrap-reverse;
-    margin: 50px auto;
+    margin: 50px auto 50px auto;
   }
 
   .example-container-01 img,
