@@ -344,7 +344,7 @@ footer {
 /* Media Queries */
 
 /* When the screen is less than 600 pixels wide, hide all link except the home link. Shows the hamburger menu icon */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   .nav li:not(:first-child) {
     display: none;
   }
@@ -432,6 +432,12 @@ footer {
     margin: 0 auto;
     max-width: 12rem;
     max-height: 10rem;
+  }
+}
+
+@media screen and (max-width: 481px) {
+  .nav > .container {
+    width: 768px;
   }
 }
 
