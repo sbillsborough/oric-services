@@ -452,10 +452,24 @@ footer {
     flex-wrap: wrap;
   }
 
+  .nav {
+    font-size: 0.5rem;
+  }
+
+  .nav .btn {
+    padding: 0 0 0 10px;
+  }
+
+  .nav .icon {
+    padding: 0 10px 0 0;
+  }
+
+  .nav li {
+    width: 20%;
+  }
+
   .nav.responsive li a.btn-mini {
-    font-size: 0.3rem;
-    padding: 0 4px;
-    width: 1.5rem;
+    font-size: 0.4rem;
   }
 
   .main-top-container {
