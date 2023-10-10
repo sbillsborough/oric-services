@@ -42,7 +42,7 @@ header {
   left: 0;
   right: 0;
   transition: all 0.3s ease-in-out;
-  width: 100vw;
+  width: 100%;
   border-bottom: 2px solid var(--border-color);
   background: var(--main-color);
   padding: 20px;
@@ -440,12 +440,6 @@ footer {
 }
 
 @media only screen and (max-width: 481px) {
-  .nav.responsive li a.btn-mini {
-    font-size: 0.3rem;
-    padding: 0 4px;
-    width: 1.5rem;
-  }
-
   .emotion-container img {
     width: 80%;
   }
