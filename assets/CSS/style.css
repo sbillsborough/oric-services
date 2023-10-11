@@ -321,6 +321,7 @@ gmp-map {
 
 footer {
   background: #fff;
+  width: 100%;
   display: flex;
   justify-content: space-around;
   align-items: start;
@@ -373,7 +374,7 @@ footer {
 
   .nav.responsive li a.btn-mini {
     display: flex;
-    font-size: 0.5rem;
+    font-size: 0.7rem;
     margin: 0 10px;
     padding: 0;
     text-align: center;
@@ -446,7 +447,7 @@ footer {
 
   .nav {
     width: 100%;
-    font-size: 0.6rem;
+    font-size: 0.8rem;
   }
 
   .nav .btn {
@@ -458,7 +459,7 @@ footer {
   }
 
   .nav.responsive li a.btn-mini {
-    font-size: 0.4rem;
+    font-size: 0.6rem;
   }
 }
 
